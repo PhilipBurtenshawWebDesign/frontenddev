@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        
+        var age = 58;
+        console.log(messageAge); 
+
+        // I am ?? years of age
+        // joing strings together using + is known as concatenation
+
+        var messageAge = `I am `+ age + `years of age`;
+        console.log(messageAge);
+
+        // let is the modern form of var for declaring a variable
+        // the `` (backtick) is used for string interpolation
+        let myMessageAge = `I am ${age} years of age today`;
+        console.log(myMessageAge); 
+        
+        //
+        const myAge = 58;
+        const century = 100;
+        const yearsToCentury = century - myAge;
+
+        myMessageAge = `It will take me ${yearsToCentury} years to reach ${century} years`;
+        console.log(myMessageAge);
+
+    </script>
+
+</head>
+
+<body>
+    <p>Hello World</p>
+</body>
+
+</html>
